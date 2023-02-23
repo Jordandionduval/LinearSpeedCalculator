@@ -1,6 +1,6 @@
 #-----------------------------Tested for Maya 2022+-----------------------------#
 #
-#             jdd_offsetGroupManager.py 
+#             jdd_LinearSpeedCalculator
 #             v1.0.0, last modified 23/02/23
 # 
 # MIT License
@@ -38,22 +38,6 @@ scpt.UI()
 # so it can easily be accessed later.
 #--------------------------------------------------------------------------------#
 
-'''
-Installation:
-1. Copy the "SpeedCalc.py" to your Maya scripts directory:
-    > MyDocuments\Maya\scripts\
-2. Then, within maya, use the following text as a python script to run the tool:
-   (without the apostrophes)
-
-#------COPY--THIS------#
-import SpeedCalc as SC
-SC.UI()
-#----------------------#
-
-3.(Optional) Alternatively, the text can be saved in the custom shelf using
-maya's script editor. This makes the script a small button in your current shelf
-so it can easily be accessed later.
-'''
 import maya.cmds as cmds
 import math
 
@@ -122,7 +106,7 @@ class WspeedCalc(object):
 		z2=v2[2]
 
 		res=math.sqrt(math.pow(x2-x1,2)+math.pow(y2-y1,2)+math.pow(y2-y1,2))
-		
+
 		return res
 
 	def getSpeed(self, *args):
