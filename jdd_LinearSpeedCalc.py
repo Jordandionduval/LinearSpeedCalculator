@@ -1,6 +1,6 @@
 #-----------------------------Tested for Maya 2022+-----------------------------#
 #
-#             jdd_LinearSpeedCalculator
+#             jdd_LinearSpeedCalculator.py
 #             v1.0.0, last modified 23/02/23
 # 
 # MIT License
