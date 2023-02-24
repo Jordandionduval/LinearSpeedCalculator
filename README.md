@@ -20,6 +20,8 @@ The tool requires the user to select a controller with its translate attributes 
 The distance is calculated from the translate vectors at the specified keys. The duration is determined using the provided keys, divide by framerate (fps).
 Distance is then divided by duration, which gives us the speed in units per seconds.
 
+![image](https://user-images.githubusercontent.com/84198946/221066275-bc0e39d8-0d1e-4e5d-a72e-260a8f69a791.png)
+
 ---
 
 ## Installation
